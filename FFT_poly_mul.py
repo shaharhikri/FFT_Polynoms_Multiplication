@@ -101,5 +101,6 @@ def mulPol(a: list, b: list):
 a=[1,1,3]            #a(x)=3x^2+1x^1+1
 b=[-1,1]            #b(x)=1x^1+-1
 
-c=mulPol(a,b)       #c(x) = =3x^3+-2x^2+x^1+-1
+c=mulPol(b,c)       #c(x) = =3x^3+-2x^2+x^1+-1
 print_polynom(c,'c')
+
